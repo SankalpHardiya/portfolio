@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#academics">Academics</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <header class="header">
+            <div class="profile-pic">
+                <img src="photo2.jpg" alt="Profile Picture" class="profile-img">
+            </div>
+            <h1 class="name">SANKALP HARDIYA</h1>
+            <p class="tagline">Developer | Problem Solver</p>
+        </header>
+        
+
+        <section id="about" class="about">
+            <h2>About Me</h2>
+            <p>
+                I am a 3rd-year Computer Science student passionate about web development. I enjoy building user-friendly websites and applications with efficient backend systems, constantly exploring new technologies to enhance my skills.
+            </p>
+        </section>
+
+        <section id="academics" class="academics">
+            <h2>Academics</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Degree</th>
+                        <th>Institution</th>
+                        <th>Year</th>
+                        <th>Percentage</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>B.Tech in Computer Science</td>
+                        <td>Acropolis Institute</td>
+                        <td>2022 - 2026</td>
+                        <td>Current CGPA: 7.00%</td>
+                    </tr>
+                    <tr>
+                        <td>High School</td>
+                        <td>Holy Cross School</td>
+                        <td>2022</td>
+                        <td>80%</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="skills" class="skills">
+            <h2>Skills</h2>
+            <div class="skill-grid">
+                <div class="skill-card">HTML & CSS</div>
+                <div class="skill-card">MySQL</div>
+                <div class="skill-card">Git & GitHub</div>
+                <div class="skill-card">Problem Solving</div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <h2>Projects</h2>
+            <div class="project-card">
+                <h3>Project 1: Portfolio Website</h3>
+                <p>Developed a personal portfolio to showcase skills and projects.</p>
+                <p><a href="https://github.com/yourusername/portfolio-website" target="_blank">View on GitHub</a></p>
+            </div>
+            <div class="project-card">
+                <h3>Project 2: Techzone Website</h3>
+                <p>Built a static website that includes tech news and tech products.</p>
+                <p><a href="https://sankalphardiya.github.io/Iwt/" target="_blank">View on GitHub</a></p>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contact Me</h2>
+            <p>Email: sankalphardiya220693@acropolis.in.com</p>
+            <p>Phone: 8269424546</p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/sankalp-hardiya-3381202a3/" target="_blank">LinkedIn Profile</a></p>
+
+            <h3>Get in Touch</h3>
+            <form action="#" method="post" class="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </div>
+</body>
+
+</html>
